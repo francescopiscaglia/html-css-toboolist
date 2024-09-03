@@ -42,6 +42,10 @@ header{
     padding: 1rem 2.5rem;
 }
 
+.extra-padding{
+    padding: 0 0.2rem;
+}
+
 /* #endregion utilities */
 
 /* #region Header */
@@ -77,6 +81,7 @@ header{
 /* #endregion nav */
 
 /* #region main */
+/* #region new task */
 .things-to-do{
     margin-top: 0.5rem;
 }
@@ -101,5 +106,19 @@ header{
     border: 1px solid var(--bool-primary);
     background-color: var(--bool-primary);
 }
+/* #endregion new task */
+
+/* #region today task */
+#today-task{
+    margin-top: 2rem;
+}
+
+.secondary-color{
+    border: 1px solid var(--bool-secondary);
+    background-color: var(--bool-secondary); 
+}
+
+/* #endregion today task */
+
 
 /* #endregion main */
