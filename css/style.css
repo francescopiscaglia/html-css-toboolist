@@ -1,0 +1,18 @@
+/* Esercizio
+Ricreiamo una TodoList seguendo il layout in allegato.
+Consigli
+Partiamo sempre dal definire le macroaree del layout e analizziamo poi gli elementi in comune nelle diverse aree e quindi tutto ciò che possiamo centralizzare, per rendere il codice meno ripetitivo e quindi più mantenibile.
+Consegna
+Pushate in Github utilizzando VS code e stando attenti, quando create la repo, di rispettare il nome della repo, in questo caso html-css-toboolist. */
+
+:root{
+    --bool-black: #000000;
+    --bool-gray: #cfd5d9;
+    --bool-primary: #14aaf5;
+    --bool-secondary: #ab5de6;
+    --bool-acqua: #2cc6ab;
+    --bool-orange: #ff9b00;
+    --bool-pink: #ec4a9d;
+    --bool-grenn: #a3d116;
+    --bool-graybody: #f6f8f9;
+}
