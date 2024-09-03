@@ -33,7 +33,20 @@ header{
     padding: 1rem;
 }
 
+/* #region utilities */
+.container{
+    background-color: white;
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 1rem 2.5rem;
+}
+
+/* #endregion utilities */
+
 /* #region Header */
+
 #logo-img{
     vertical-align: middle;
 }
@@ -44,3 +57,22 @@ header{
 }
 
 /* #endregion Header */
+
+/* #region nav */
+.nav-input{
+    padding: 0.5rem 0.7rem;
+    border-radius: 5px;
+    border: 1px solid var(--bool-gray);
+    font-size: 11px;
+}
+
+#add-task{
+    background-color: var(--bool-primary);
+    color: white;
+}
+
+#add-section{
+    background-color: white;
+    color: var(--bool-gray);
+}
+/* #endregion nav */
