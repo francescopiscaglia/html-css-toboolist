@@ -1,9 +1,9 @@
-/* Esercizio
-Ricreiamo una TodoList seguendo il layout in allegato.
-Consigli
-Partiamo sempre dal definire le macroaree del layout e analizziamo poi gli elementi in comune nelle diverse aree e quindi tutto ciò che possiamo centralizzare, per rendere il codice meno ripetitivo e quindi più mantenibile.
-Consegna
-Pushate in Github utilizzando VS code e stando attenti, quando create la repo, di rispettare il nome della repo, in questo caso html-css-toboolist. */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
 
 :root{
     --bool-black: #000000;
@@ -13,15 +13,8 @@ Pushate in Github utilizzando VS code e stando attenti, quando create la repo, d
     --bool-acqua: #2cc6ab;
     --bool-orange: #ff9b00;
     --bool-pink: #ec4a9d;
-    --bool-grenn: #a3d116;
+    --bool-green: #a3d116;
     --bool-graybody: #f6f8f9;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif
 }
 
 body{
@@ -81,7 +74,10 @@ header{
 /* #endregion nav */
 
 /* #region main */
-/* #region new task */
+section{
+    margin-bottom: 2rem;
+}
+
 .things-to-do{
     margin-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -105,6 +101,7 @@ header{
     height: 20px;
     text-align: center;
 }
+
 .tags-buttom{
     padding: 0.3rem 0.7rem;
     border-radius: 1.7rem;
@@ -115,12 +112,6 @@ header{
 .primary-color{
     border: 1px solid var(--bool-primary);
     background-color: var(--bool-primary);
-}
-/* #endregion new task */
-
-/* #region today task */
-section{
-    margin-bottom: 2rem;
 }
 
 .secondary-color{
@@ -138,10 +129,13 @@ section{
     background-color: var(--bool-orange); 
 }
 
-/* #endregion today task */
+.pink-color{
+    border: 1px solid var(--bool-pink);
+    background-color: var(--bool-pink); 
+}
 
-/* #region upcoming task */
-
-/* #endregion upcoming task */
-
+.lightgreen-color{
+    border: 1px solid var(--bool-green);
+    background-color: var(--bool-green); 
+}
 /* #endregion main */
