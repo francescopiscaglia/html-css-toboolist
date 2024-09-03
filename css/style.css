@@ -31,15 +31,14 @@ body{
 header{
     background-color: white;
     padding: 1rem;
+    margin-bottom: 2rem;
 }
 
 /* #region utilities */
 .container{
     background-color: white;
-    height: 500px;
     width: 80%;
     margin: auto;
-    margin-top: 2rem;
     padding: 1rem 2.5rem;
 }
 
@@ -76,3 +75,31 @@ header{
     color: var(--bool-gray);
 }
 /* #endregion nav */
+
+/* #region main */
+.things-to-do{
+    margin-top: 0.5rem;
+}
+.green-mark{
+    color: var(--bool-acqua);
+    border: 1px solid var(--bool-acqua);
+    display: inline-block;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.tags-buttom{
+    padding: 0.3rem 0.7rem;
+    border-radius: 1.7rem;
+    font-size: 11px;
+    color: white;
+}
+
+.primary-color{
+    border: 1px solid var(--bool-primary);
+    background-color: var(--bool-primary);
+}
+
+/* #endregion main */
