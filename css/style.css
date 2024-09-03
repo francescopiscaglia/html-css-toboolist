@@ -119,8 +119,8 @@ header{
 /* #endregion new task */
 
 /* #region today task */
-#today-task{
-    margin-top: 2rem;
+section{
+    margin-bottom: 2rem;
 }
 
 .secondary-color{
@@ -140,5 +140,8 @@ header{
 
 /* #endregion today task */
 
+/* #region upcoming task */
+
+/* #endregion upcoming task */
 
 /* #endregion main */
