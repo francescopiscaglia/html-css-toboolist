@@ -16,3 +16,31 @@ Pushate in Github utilizzando VS code e stando attenti, quando create la repo, d
     --bool-grenn: #a3d116;
     --bool-graybody: #f6f8f9;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body{
+    background-color: var(--bool-graybody);
+}
+
+header{
+    background-color: white;
+    padding: 1rem;
+}
+
+/* #region Header */
+#logo-img{
+    vertical-align: middle;
+}
+
+#logo-title{
+    display: inline-block;
+    vertical-align: middle;    
+}
+
+/* #endregion Header */
