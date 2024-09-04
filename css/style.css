@@ -1,8 +1,8 @@
+/* #region common */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif
 }
 
 :root{
@@ -19,6 +19,7 @@
 
 body{
     background-color: var(--bool-graybody);
+    font-family: Arial, Helvetica, sans-serif
 }
 
 header{
@@ -26,6 +27,12 @@ header{
     padding: 1rem;
     margin-bottom: 2rem;
 }
+
+nav{
+    border-bottom: 4px solid var(--bool-graybody);
+}
+/* #endregion common */
+
 
 /* #region utilities */
 .container{
@@ -55,9 +62,9 @@ header{
 /* #endregion Header */
 
 /* #region nav */
-.nav-input{
+.nav-btn{
     padding: 0.5rem 0.7rem;
-    border-radius: 5px;
+    border-radius: .25rem;
     border: 1px solid var(--bool-gray);
     font-size: 11px;
 }
