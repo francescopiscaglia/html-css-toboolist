@@ -46,6 +46,36 @@ nav{
     padding: 0 0.2rem;
 }
 
+.primary-color{
+    border: 1px solid var(--bool-primary);
+    background-color: var(--bool-primary);
+}
+
+.secondary-color{
+    border: 1px solid var(--bool-secondary);
+    background-color: var(--bool-secondary); 
+}
+
+.green-color{
+    border: 1px solid var(--bool-acqua);
+    background-color: var(--bool-acqua); 
+}
+
+.orange-color{
+    border: 1px solid var(--bool-orange);
+    background-color: var(--bool-orange); 
+}
+
+.pink-color{
+    border: 1px solid var(--bool-pink);
+    background-color: var(--bool-pink); 
+}
+
+.lightgreen-color{
+    border: 1px solid var(--bool-green);
+    background-color: var(--bool-green); 
+}
+
 /* #endregion utilities */
 
 /* #region Header */
@@ -84,32 +114,23 @@ details ul{
     list-style-type: none;
 }
 
-section{
-    margin-bottom: 2rem;
+.task-marker{
+    display: inline-block;
+    border-radius: 50%;
+    width: 1.2rem;
+    height: 1.2rem;
+    text-align: center;
 }
 
-.things-to-do{
-    margin-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}
-.green-mark{
+.green{
     color: var(--bool-acqua);
     border: 1px solid var(--bool-acqua);
-    display: inline-block;
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    text-align: center;
+ 
 }
 
-.red-mark{
+.red{
     color: red;
     border: 1px solid red;
-    display: inline-block;
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    text-align: center;
 }
 
 .tags-buttom{
@@ -118,34 +139,4 @@ section{
     font-size: 11px;
     color: white;
 }
-
-.primary-color{
-    border: 1px solid var(--bool-primary);
-    background-color: var(--bool-primary);
-}
-
-.secondary-color{
-    border: 1px solid var(--bool-secondary);
-    background-color: var(--bool-secondary); 
-}
-
-.green-color{
-    border: 1px solid var(--bool-acqua);
-    background-color: var(--bool-acqua); 
-}
-
-.orange-color{
-    border: 1px solid var(--bool-orange);
-    background-color: var(--bool-orange); 
-}
-
-.pink-color{
-    border: 1px solid var(--bool-pink);
-    background-color: var(--bool-pink); 
-}
-
-.lightgreen-color{
-    border: 1px solid var(--bool-green);
-    background-color: var(--bool-green); 
-}
-/* #endregion main */
+/* #endregion */
