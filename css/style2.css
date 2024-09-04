@@ -77,3 +77,75 @@ nav{
     color: var(--bool-gray);
 }
 /* #endregion nav */
+
+/* #region main */
+details ul{
+    padding: .5rem 1rem;
+    list-style-type: none;
+}
+
+section{
+    margin-bottom: 2rem;
+}
+
+.things-to-do{
+    margin-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.green-mark{
+    color: var(--bool-acqua);
+    border: 1px solid var(--bool-acqua);
+    display: inline-block;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.red-mark{
+    color: red;
+    border: 1px solid red;
+    display: inline-block;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.tags-buttom{
+    padding: 0.3rem 0.7rem;
+    border-radius: 1.7rem;
+    font-size: 11px;
+    color: white;
+}
+
+.primary-color{
+    border: 1px solid var(--bool-primary);
+    background-color: var(--bool-primary);
+}
+
+.secondary-color{
+    border: 1px solid var(--bool-secondary);
+    background-color: var(--bool-secondary); 
+}
+
+.green-color{
+    border: 1px solid var(--bool-acqua);
+    background-color: var(--bool-acqua); 
+}
+
+.orange-color{
+    border: 1px solid var(--bool-orange);
+    background-color: var(--bool-orange); 
+}
+
+.pink-color{
+    border: 1px solid var(--bool-pink);
+    background-color: var(--bool-pink); 
+}
+
+.lightgreen-color{
+    border: 1px solid var(--bool-green);
+    background-color: var(--bool-green); 
+}
+/* #endregion main */
