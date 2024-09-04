@@ -109,9 +109,16 @@ nav{
 /* #endregion nav */
 
 /* #region main */
+section{
+    padding-top: 1rem;
+}
+
 details ul{
-    padding: .5rem 1rem;
     list-style-type: none;
+
+    li{
+        margin-top: 1rem;
+    }
 }
 
 .task-marker{
@@ -133,7 +140,7 @@ details ul{
     border: 1px solid red;
 }
 
-.tags-buttom{
+.tags-selector{
     padding: 0.3rem 0.7rem;
     border-radius: 1.7rem;
     font-size: 11px;
