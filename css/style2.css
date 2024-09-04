@@ -113,8 +113,13 @@ section{
     padding-top: 1rem;
 }
 
-details ul{
-    list-style-type: none;
+details{
+    summary{
+        font-weight: bold;
+    }
+    ul{
+        list-style-type: none;
+    }
 
     li{
         margin-top: 1rem;
